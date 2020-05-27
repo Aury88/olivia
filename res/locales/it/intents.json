@@ -13,18 +13,18 @@
     "context": ""
   },
   {
-    "tag": "ciao",
+    "tag": "hello",
     "patterns": [
       "Ciao",
       "Ehilà",
       "Buongiorno",
-      "che succede"
+      "Buon dì"
     ],
     "responses": [
       "Hey!",
       "Ciao!",
       "Ciao",
-      "Buongiorno|!"
+      "Buongiorno!"
     ],
     "context": ""
   },
@@ -36,8 +36,9 @@
       "Qual è il tuo compito"
     ],
     "responses": [
-      "Il mio scopo è far si che vada tutto bene.",
-      "Il mio scopo è aiutarti il più possibile"
+      "Il mio scopo è far si che vada tutto bene",
+      "Il mio scopo è aiutarti il più possibile",
+      "Il mio compito è aiutarti il più possibile"
     ],
     "context": ""
   },
@@ -86,7 +87,7 @@
   {
     "tag": "bad",
     "patterns": [
-      "Non mi sent bene",
+      "Non mi sento bene",
       "Sono triste",
       "No"
     ],
@@ -98,9 +99,10 @@
   {
     "tag": "actions",
     "patterns": [
-      "Cosa puoi fare",
-      "Cosa posso chiederti",
-      "puoi aiutarmi"
+      "Cosa puoi fare?",
+      "Cosa posso chiederti?",
+      "Puoi aiutarmi?",
+      "Come puoi aiutarmi?"
     ],
     "responses": [
       "Posso fare molte cose, queste sono alcune delle cose che puoi chiedermi: la capitale di un paese o la monetta utilizzata. Un numero a caso. Calcolarti un operazione matematica."
@@ -150,7 +152,7 @@
     "patterns": [
       "Ciao",
       "Arrivederci",
-      "Bye"
+      "Alla prossima"
     ],
     "responses": [
       "Ciao!",
@@ -185,7 +187,7 @@
   {
     "tag": "wait",
     "patterns": [
-      "Puoi aspettare 2 minuti",
+      "Puoi aspettare 2 minuti?",
       "Perfavore aspetta",
       "Aspetta 2 minuti per favore"
     ],
